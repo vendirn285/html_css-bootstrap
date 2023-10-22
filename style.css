@@ -1,0 +1,214 @@
+:root {
+    --pr-color: #55D3D2 ;
+}
+/* navbar */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #53d3d1;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.nav-color {
+    background-color: #55D3D2;
+    transition: all ease-in-out 0.3s;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.button-secondary {
+    width: 133px;
+    height: 44px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-weight: 700;
+}
+
+.button-primary {
+    width: 133px;
+    height: 44px;
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    font-weight: 400;
+}
+
+/* hero section */
+#hero {
+    background-image: url(./assets/img-hero\ 1.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-tagline h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 50;
+    line-height: 72px;
+    width: 556px;
+
+}
+
+.hero-tagline p {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    line-height: 30px;
+    width: 70%;
+}
+
+.button-lg-primary {
+    width: 253px;
+    height: 76px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* layanan section */
+h2 {
+    font-size: 52px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.p-5 {
+    background-color: #FBEBEB;
+}
+
+.card {
+    background-color: #FEAE49;
+    width: 300px;
+    height: 325px;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+h4 {
+    padding-top: 50px;
+    font-size: 24;
+    font-weight: 700;
+}
+
+.btn {
+    border-radius: 0%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*content */
+#content {
+    background-color: var(--pr-color);
+    height: 100vh;
+    background-size: cover;
+}
+
+.content-heading h1 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 50;
+    line-height: 72px;
+    width: 556px;
+}
+
+.content-heading p {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    line-height: 30px;
+    width: 70%;
+}
+
+.card-content {
+    background-color: #FBEBEB;
+    width: 354px;
+    height: 435px;
+    padding-top: px;
+    margin: 20px;
+}
+
+.content-title {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -30px;
+}
+
+.content-article {
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+    width: 70%;
+}
+
+.btn-light {
+    margin-top: 30px;
+    background-color: #ffffff;
+}
+
+/* gallery */
+#gallery {
+    background-color: #FBEBEB;
+}
+
+.button-arrow-left {
+     border: none;
+     border-radius: 50%;
+     background-color: var(--pr-color);
+     padding: 0;
+}
+
+.button-arrow-right {
+    border: none;
+    border-radius: 50%;
+    background-color: var(--pr-color);
+    padding: 0;
+}
+
+/* testimoni */
+.testimonial figure img {
+    width: 150px;
+    margin-top: 70px;
+}
+
+.testimonial figure h3 {
+    margin-top: 30px;
+    font-size: 20;
+    font-weight: 700;
+}
+
+.testimonial figure p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 65px;
+}
+
+.testimonial p {
+    margin-top: 20px;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* footer */
+.ending {
+    background-color: #002448;
+}
+
+.ending p {
+    margin-top: 75px;
+    color: #fff;
+    margin-bottom: 85;
+}
